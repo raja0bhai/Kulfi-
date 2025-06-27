@@ -18,21 +18,31 @@ main {
   height: 100vh;
   max-width: 100%;
   max-height: 100%;
+  overflow: hidden;
+  position: relative; 
   box-shadow: 0 3px 10px rgba(0,0,0,0.3);
-}.
+}
 
-.item {
-  width: 60vw;
-  height: 80vh;
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;   /* poori screen ke height le */
+  overflow: hidden;
+  position: relative;
+}
+
+.item { width: 80vw;           /* screen ka 80% width le */
+  height: 80vh;          /* screen ka 80% height le */
+  max-width: 400px;      /* optional: bada screen pe limit kar do */
+  max-height: 600px;
   list-style-type: none;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
+  position: relative;    /* ab absolute ki zarurat nahi center karne ko */
   background-position: center;
   background-size: cover;
   border-radius: 20px;
   box-shadow: 0 20px 30px rgba(255,255,255,0.3) inset;
+  flex-shrink: 0;
   transition: transform 0.1s, left 0.75s, top 0.75s, width 0.75s, height 0.75s;
 
   &:nth-child(1), &:nth-child(2) {
