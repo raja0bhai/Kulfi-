@@ -1,6 +1,5 @@
    const loveLetter = `
 My Dearest,
-
 You are the first person who has ever made my heart feel this way. I know I’m not perfect for you, and I’m not saying you have to choose me😊. I catch myself smiling at random moments just because your name crosses my mind. Maybe I’ll only ever be a small part of your story, but to me, you’ve already become my whole book🤗. I just want to say what’s in my heart, you are the only one for me who takes the same place as my mom and dad😌, and no one can ever take your place. 💌✨<3
 `;
 
@@ -62,4 +61,5 @@ You are the first person who has ever made my heart feel this way. I know I’m 
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
       drawStars();
+
     });
