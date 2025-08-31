@@ -71,7 +71,7 @@ svg path#heart {
   justify-content: flex-start;
   align-items: flex-start;
   width: 30%;
-  max-width: 260px;
+  max-width: 300px;
   height: auto;
   overflow: hidden;
   padding: 20px;
@@ -113,6 +113,7 @@ svg path#heart {
     line-height: 1.3;
   }
 }
+
 
 
 
