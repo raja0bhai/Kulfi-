@@ -38,7 +38,7 @@ svg path#line {
   stroke-miterlimit: 4;
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
-  animation: dash 4s linear ;
+  animation: dash 4s linear forwards;
 }
 
 svg path#heart {
@@ -46,7 +46,7 @@ svg path#heart {
   stroke: #ff9999;
   stroke-width: 1.5;
   transform-origin: 50% 50%;
-  animation: blink 4s linear ;
+  animation: blink 4s linear forwards;
 }
 
 @keyframes dash {
@@ -62,7 +62,7 @@ svg path#heart {
   75% { opacity: 1; transform: scale(1.0); }
   80% { opacity: 1; transform: scale(1.2); }
   85% { opacity: 1; transform: scale(1.0); }
-  100% { opacity: 0; transform: scale(1.0); }
+  100% { opacity: 1; transform: scale(1.0); }
 }
 
 .container {
@@ -113,6 +113,7 @@ svg path#heart {
     line-height: 1.3;
   }
 }
+
 
 
 
