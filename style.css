@@ -70,7 +70,7 @@ svg path#heart {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 80%;
+  width: 50%;
   max-width: 600px;
   height: auto;
   overflow: hidden;
@@ -113,3 +113,4 @@ svg path#heart {
     line-height: 1.3;
   }
 }
+
